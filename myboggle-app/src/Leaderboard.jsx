@@ -5,7 +5,7 @@ function Leaderboard({ onSelectGame }) {
   const [leaderboards, setLeaderboards] = useState({});
   const [show, setShow] = useState(false);
 
-  const BASE_URL = "https://chanceenjoy-cubaperfect-8000.codio.io";
+  const BASE_URL = "https://my-boggle-app.onrender.com";
 
   async function loadChallenges() {
     try {
